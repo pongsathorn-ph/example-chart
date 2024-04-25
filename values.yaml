@@ -1,0 +1,29 @@
+configmap:
+  name: example-chart-configmap
+
+app:
+  namespace: beam-namespace
+  name: example-chart-app
+  replicas: 2
+  image:
+    repository: pongsathorn/demo-angular-ui
+    version: 2.0.0
+        
+service:
+  name: example-chart-service
+  port: 80
+  targetPort: 80
+
+issuer:
+  name: example-chart-issuer
+  spec:
+    acme:
+      server: https://acme-staging-v02.api.letsencrypt.org/directory
+      email: example@mail.com
+
+ingress:
+  name: example-chart-ingress
+  host: example-chart.3.ipv9.xyz
+  http:
+    path: /demo-ui/
+    pathType: Prefix
