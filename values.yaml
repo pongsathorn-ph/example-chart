@@ -1,4 +1,4 @@
-onfigmap:
+configmap:
   name: example-chart-configmap
 
 app:
