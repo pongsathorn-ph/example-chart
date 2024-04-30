@@ -3,6 +3,16 @@ entries:
   example-chart:
   - apiVersion: v2
     appVersion: v1.0.0
+    created: "2024-04-30T14:59:32.1817316+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 929ea49d776c3189b0cbc5e257c72c2cb3ae2d32751ba61ba60df51c65781e45
+    name: example-chart
+    type: application
+    urls:
+    - assets/example-chart-2024.0.3.tgz
+    version: 2024.0.3
+  - apiVersion: v2
+    appVersion: v1.0.0
     created: "2024-04-30T14:54:32.8746936+07:00"
     description: A Helm chart for Kubernetes
     digest: 3d3dfca06f696aedc0fd7c056925548d839a35eda5389e5e7963359dabd6b4e9
@@ -31,4 +41,4 @@ entries:
     urls:
     - assets/example-chart-2024.0.0.tgz
     version: 2024.0.0
-generated: "2024-04-30T14:54:32.873694+07:00"
+generated: "2024-04-30T14:59:32.1807311+07:00"
