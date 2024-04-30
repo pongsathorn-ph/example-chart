@@ -3,9 +3,9 @@ entries:
   example-chart:
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2024-04-30T13:13:40.8759408+07:00"
+    created: "2024-04-30T14:41:59.1582389+07:00"
     description: A Helm chart for Kubernetes
-    digest: aefb35ff0327bf782cd9da99b1acea478a67696b0a46906e835105677ec38388
+    digest: 81bdfa19eeb9448b04c525f11386177c4a28dfa24fc11292bfc3a3434525edb1
     name: example-chart
     type: application
     urls:
@@ -13,9 +13,9 @@ entries:
     version: 2024.0.2
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2024-04-30T13:13:40.8753811+07:00"
+    created: "2024-04-30T14:41:59.1582389+07:00"
     description: A Helm chart for Kubernetes
-    digest: 6cba64af671c6639d04c2045035b017b3412ab5734c37c091d0727a95679dd2f
+    digest: 6ee23fa0a0497c0c2ceddeee11b9949ab6b30faf71a9fa648b909951e159e7a4
     name: example-chart
     type: application
     urls:
@@ -23,12 +23,12 @@ entries:
     version: 2024.0.1
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2024-04-30T13:13:40.8753811+07:00"
+    created: "2024-04-30T14:41:59.1571612+07:00"
     description: A Helm chart for Kubernetes
-    digest: 701e093e7a13974f7fa0b72da8f5d48f83fdf47ead6170a881ff37a2c65ebb67
+    digest: f854b7edb12d4fc38efde1b8bc80a7043bbbca947ad477bb80eeb3e60834f0c9
     name: example-chart
     type: application
     urls:
     - assets/example-chart-2024.0.0.tgz
     version: 2024.0.0
-generated: "2024-04-30T13:13:40.8748242+07:00"
+generated: "2024-04-30T14:41:59.1565729+07:00"
