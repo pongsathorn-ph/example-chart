@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  namespace: {{ .Release.Namespace | quote }}
-  name: {{ .Values.configmap.name }}
-data: 
-  SERVER_URL: http://url-dev/test-api
